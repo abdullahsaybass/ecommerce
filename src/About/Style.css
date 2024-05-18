@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.about-us-wrapper{
+    width: 93%;
+    margin: 0px auto;
+}
+.about-us-wrapper h1:nth-child(1){
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-top: 90px;
+}
+.about-us-wrapper > div:nth-of-type(1){
+    display: flex;
+    gap:20px;
+}
+.about-us-wrapper > div p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.about-us-wrapper h1:nth-child(3){
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-top: 90px;
+    text-align: center;
+}
+.brownlady-aboutus-decription{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.brownlady-aboutus-decription img{
+    height: 440px;
+    margin-top: 50px;
+    width: 585px;
+}
+.brownlady-aboutus-decription >div h1:nth-child(1){
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+}
+/* .violetlady-about-us-decription{
+    margin-top: 20px;
+} */
+.violetlady-about-us-decription{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.violetlady-about-us-decription img{
+    height: 420px;
+    margin-top: 50px;
+    width: 560px;
+}
+.violetlady-about-us-decription >div h1:nth-child(1){
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+}
+.about-services-container h1{
+    align-items: center;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+}
+.about-us-wrapper > .about-services-container > :nth-child(2){
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-services-container p span{
+    display: block;
+}
+.service-three-box{
+    display: flex;
+    gap:30px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.fast-delivery{
+    border: 1px solid black;
+    height: 175px;
+    justify-content: center;
+}
+.fast-delivery > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.service-three-box > .fast-delivery p{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.many-offers{  
+    border: 1px solid black;
+}
+.many-offers > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.service-three-box > .many-offers p{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.support{
+    border: 1px solid black;
+}
+.support > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.service-three-box > .support p{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+}

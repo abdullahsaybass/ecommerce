@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.cart-header {
+  margin-left: 65%;
+  width: 35%;
+ position: absolute;
+ background-color: #ffffff;
+ border: 2px solid black;
+}
+
+.col-sm-2.cart-1 {
+  background-color: black;
+  padding: 13px 30px 13px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-sm-2.cart-1 h2,
+.col-sm-2.cart-1 p {
+  color: white;
+  margin: 0; 
+}
+
+.col-sm-2.cart-2 {
+  text-align: center;
+  align-items: center;
+}
+.col-sm-2.cart-2 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.col-sm-3.cart-3{
+  border-top: 0.5px solid black;
+  margin-top: 100px;
+  align-items: center;
+  display: block;
+}
+.dd{
+  margin-left: 50px;
+}
+.col-sm-3.cart-3 p{
+  font-size: 14px;
+  margin-right: 10px;
+  align-items: center;
+  font-weight: noraml;
+}
+.col-sm-2.log{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.col-sm-2.total{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dd input{
+  width: 300px;
+  height: 35px;
+}

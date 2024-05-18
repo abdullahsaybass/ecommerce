@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.men-product-container{
+    margin-top: 180px;
+    position: relative;
+    background-color: white;
+    color: black;
+    padding-top: 155px;
+    padding-bottom: 25px;
+    height: 50%;
+    width: 80%;
+}
+.mens-wrapper{
+    width: 90%;
+    margin: 0% auto;
+}
+.men-product-part-1 h1{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.men-product-part-1 div{
+    display: flex;
+    margin-top: 15px;
+    height:25px;
+    width: 2440px;
+}
+.men-product-part-1 p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.men-product-part-1 h2{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.men-product-part-1 h2 span{
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 500;
+}
+.rating :nth-child(1){
+    font-size: 18px;
+    color: black;
+}
+.mens-products-part-2{
+    position: absolute;
+    top: 260px;
+   left:390px;
+}
+.mens-products-part-2 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f16e36;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    color: white;
+}
+.mens-products-part-3{
+    position: absolute;
+    bottom: 190px;
+    left: 35px;
+    width: 100%; /* Ensure the element spans the entire width of its container */
+    text-align: center; 
+}
+.mens-products-part-3 img{
+    height: 350px;
+    width: 500px;
+}
+/* About design css start */
+
+.product-design-wrapper :nth-child(1){
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 500;
+}
+

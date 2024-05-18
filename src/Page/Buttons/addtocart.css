@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.add-to-cart :nth-child(1){
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+}
+.add-to-cart button{
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #f16e36;
+    /* font-size: 12px; */
+}
+
+.add-to-cartl :nth-child(1){
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    align-items: center;
+    justify-content: center;
+}
+.add-to-cartl button{
+    height: 45px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #f16e36;
+    /* font-size: 12px; */
+}
+
+.buy-it-now > :nth-child(1){
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.buy-it-now button{
+    height: 45px;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #f16e36;
+    box-shadow: 0 8px 16px 10px rgba(223, 184, 153, 0.2), 0 6px 20px 10px rgba(232, 186, 149, 0.19);
+}

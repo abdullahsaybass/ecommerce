@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navigation{
+    position: relative;
+}
+.navigation-wrapper{
+    display: flex;
+}
+
+.navigation-logo{
+    margin-right: 43px;
+    padding-left: 55px;
+    padding-top: 25px;
+}
+.list.list-inline {
+    display: inline-flex; 
+    list-style: none; 
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+  .list.list-items a {
+    text-decoration: none;
+    padding-top: 3px;
+    padding-left: 25px;
+    color: #000000;
+    font-size: 12px;
+    line-height: 17px;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: .135em;
+  }
+
+.list.list-inlines{
+    display: flex;
+    list-style: none; 
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 21px;
+    align-items: center;
+}
+.list.list-item a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700px;
+    font-style: normal;
+    align-items: center;
+    text-transform: capitalize !important;
+}
+.list.list-item:nth-child(1) {
+    background-color: #f0f0f0;
+    padding-top: 28px;
+    padding-left: 40px;
+    padding-bottom: 28px;
+    padding-right: 38px;
+}
+.list.list-item:nth-child(2) {
+    background-color: #ffffff;
+    padding-top: 28px;
+    padding-left: 38px;
+    padding-bottom: 28px;
+    padding-right: 38px;
+}
+.list.list-item:nth-child(3) {
+    background-color: #f0f0f0;
+    padding-top: 28px;
+    padding-left: 38px;
+    padding-bottom: 28px;
+    padding-right: 38px;
+}
+.list.list-item:nth-child(4) {
+    background-color: #f16e36;
+    padding: 16px;
+}
+
+.dropdown-pages {
+    display: none;
+    position: absolute;
+    top: 87px;
+    left: 35%;
+    z-index: 1000;
+    width: 250px;
+    background-color: #fff;
+}
+
+.list.list-items .dropdown-pages {
+    display: block;
+}
+  ul {
+    list-style-type: none;
+  }
+
+.dropdown-Blog{
+   
+    position: absolute;
+    top: 62px;
+    left: 39%;
+    width: 250px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.dropdown-myprofile{
+    position: absolute;
+    margin-top: 28px;
+    z-index: 1000;
+    left: 800px;
+    width: 212px;
+    background-color: #f0f0f0;
+    padding-left: 22px;
+    padding-bottom: 25px;
+}
+.drop-down-profile{
+    padding-top: 20px;
+}
+.drop-down-profile >li{
+    padding-top: 5px;
+}
+.drop-down-profile >li:nth-child(1){
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width:800px) {
+    
+}

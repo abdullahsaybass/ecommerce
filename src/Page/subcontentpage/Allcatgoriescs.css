@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.all-categories-section{
+    display: flex;
+}
+.all-categories-prod{
+    display: flex;
+    gap:30px;   
+}
+.all-catgories-products{
+    position: relative;
+    width: 88%;
+    margin: 0px auto;
+}
+.categories-products-container{
+    color: white;
+    margin-top: 50px;
+}
+.categories-products-container p:nth-child(1){
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 600;
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.categories-products-container h2{
+    margin-top: 20px;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+}
+.categories-products-container h3{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 500;
+}
+.categories-products-container p:nth-of-type(2) {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.categories-products-container p span {
+    z-index: 1;
+    display: block;
+}
+.categories-products-container :nth-child(5){
+    margin-top: 15px;
+}
+.categories-products-container :nth-child(6){
+    height: 350px;
+    width: 600px;
+    top: -50px;
+    left:-60px;
+    position: absolute;
+}
+
+ .product-slider-container{
+    width: 90%;
+    margin: 0px auto;
+    /* background-color: white; */
+    padding-top: 22px;
+    
+    border-radius: 15px;
+    
+}
+.product-slider-wrapper{
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+.product-slider-wrapper > div:nth-child(1){
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+}
+.product-slider-wrapper :nth-child(1) h3{
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+}
+ .product-slider-wrapper p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: white; 
+}
+.product-slider-wrapper p span{
+    display: block;
+    
+} 
+.review-people {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review-people > div {
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap:10px;
+}
+.rating-orange :nth-child(1){
+    font-size: 11px;
+}
+.review-people > div img{
+    width: 40px;
+    height: 40px;
+}
+.review-people > div h4 {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 600;
+    display: block;
+}
+.review-people > div h4 span{
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    display: block;
+}
+
+  
+.carousel-first-item {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+.carousel-first-item .product-slider-wrapper{
+    background-color: white;
+    padding-top: 22px;
+}
+.carousel-first-item .product-slider-wrapper h3{
+    color: black;
+  }
+.carousel-first-item .product-slider-wrapper p{    
+    color: black;
+  }
+.carousel-first-item .review-people > div{
+    color: black;
+}
+
+.carousel-item .product-slider-wrapper{
+    padding-top: 20px;
+}
+
+/* patner logo css design start */
+.product-patners-image {
+    overflow: hidden; 
+  }
+  
+  .product-design-setion{
+    padding-top: 85px;
+    background-color: black;
+    position: relative;
+    padding-bottom:75px ;
+}
+.product-design-container {
+    width: 95%;
+    margin: 0px auto;
+    color: white;
+}
+.product-design-container > div{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-design-container > div h2{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+}
+.product-design-container > div h1{
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 15px;
+}
+.product-design-container > div h1 span{
+    font-size: 41px;
+    line-height: 42px;
+    font-weight: 400;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.half-width{
+    background-color: black;
+    position: relative;
+}
+  
+.about-back-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start; /* Aligns the content to the start of the container */
+    width: 50%;
+    margin-right: auto;
+    height: 320px;
+}  
+.about-back-wrapper {
+    width: 84%;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.about-back-wrapper :nth-child(1){
+   display: flex;
+   gap:20px;
+   align-items: center;
+}
+.about-back-wrapper > div h2{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.about-back-icon{
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+
+}
+.about-back-wrapper h1{
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-top: 30px;
+}
+.about-back-wrapper p{
+    font-size: 14px;
+    font-family: 400;
+    line-height: 20px;
+    margin-top: 15px;
+}

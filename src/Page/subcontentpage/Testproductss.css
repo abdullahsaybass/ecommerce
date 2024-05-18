@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.test-products{
+    display: flex;
+    width: 94%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.test-products-container{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.test-products-container p:nth-child(1){
+    height: 35px;
+    width: 90px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.test-products-container h2{
+    margin-top: 20px;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+}
+.test-products-container h3{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 500;
+}
+.test-products-container p:nth-of-type(2) {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.test-products-container p span {
+    z-index: 1;
+    display: block;
+}
+.test-products-container :nth-child(5){
+    margin-top: 35px;
+}
+.shoe-wire-img img{
+    height: 300px;
+    width: 700px;
+}

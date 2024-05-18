@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.shoe-wrapper > div:nth-of-type(1){
+    display: flex;
+}
+.shoe-image-container > div{
+  width: 485px; 
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  opacity: 1;
+}
+
+.shoe-wrapper > div > div:nth-of-type(1) {
+    background-color: #f0f0f0;
+    display: flex;
+    height: 720px;
+}
+
+.shoe-image-container > div{
+  margin-top: 30px;
+  margin-left: 95px;
+}
+.shoe-wrapper > div > div:nth-of-type(1) img{
+    margin-left: 10px;
+}
+.shoe-wrapper > div > div:nth-of-type(2){
+   margin-left: 40px;
+}
+.shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(1){
+   display: flex;
+   margin-top: 38px;
+   gap:10px;
+   align-items: center;
+ }
+ .shoe-wrapper > div > div > div:nth-of-type(1) :nth-child(1){
+    font-size: 20px;
+    color: #98a0b0;
+  }
+  .shoe-wrapper > div > div > div:nth-of-type(1) :nth-child(2){
+    font-size: 18px;
+  }
+  .shoe-wrapper > div > div > div:nth-of-type(1) >p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(2) > h1:nth-of-type(1) {
+    font-size: 41px;
+    line-height: 49px;
+    font-weight: 700;
+    margin-top: 13px;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(2) > h2:nth-of-type(1) {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(3)  {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    gap:10px;
+    
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) {
+    display: flex;
+    gap:5px
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) {
+    display: flex;
+    gap:5px
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) :nth-child(1) {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) :nth-child(2) {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) :nth-child(1) {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) :nth-child(2) {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > p:nth-of-type(1) {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(4) {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap:10px;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(4) > h5:nth-of-type(1) {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(4) > h5:nth-of-type(1) span{
+    display: block;
+  }
+  .cement{
+    width: 12px;
+    height: 12px;
+    background-color: #808080;
+    border-radius: 50px;
+    border: 1px solid black; 
+  }
+  .yellow{
+    width: 12px;
+    height: 12px;
+    background-color: #ffa500;
+    border-radius: 50px;
+    border: 1px solid black; 
+  }
+  .green{
+    
+    width: 12px;
+    height: 12px;
+    background-color: #008000;
+    border-radius: 50px;
+    border: 1px solid black; 
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(5) {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap:10px;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(5) > p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > p:nth-of-type(2) {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(6)  {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(6) > p{
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(7){
+   display: flex;
+   gap:90px;
+   align-items: center;
+   margin-top: 20px;
+  }
+  .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(7) >h1{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+   }
+   .shoe-wrapper > div > div:nth-of-type(2) > div:nth-of-type(7) >h1 span{
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+   }
+   .shoe-wrapper > div > div:nth-of-type(2) > :nth-child(10){
+    margin-top: 18px;
+   }
+
+ 
